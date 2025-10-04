@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-background antialiased">
         <ReactQueryProvider>
           <NuqsAdapter>
-            <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
               {children}
               <Toaster richColors />
             </ThemeProvider>
